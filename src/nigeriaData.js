@@ -1,8 +1,8 @@
 const nigeriaData = {
-  "Lagos": ["Ikeja", "Ikorodu", "Epe",   "Lagos Island",  "Badagry", "Magodo","Ojo",  ],
+  "Lagos": ["Ikeja", "Ikorodu", "Epe",   "Lagos Island",  "Badagry", "Magodo","Ojo", ],
   "Ekiti": ["Ado-Ekiti", "Ikere-Ekiti", "Ijero-Ekiti"],
 
-  "Ogun": ["Abeokuta", "Ijebu Ode", "Sango Ota"],
+  "Ogun": ["Abeokuta", ],
 
   "Oyo": ["Ibadan", "Ogbomosho",  "Iseyin","Saki","Igboho","Kishi","Eruwa", "Akinyele","Alakia"],
 

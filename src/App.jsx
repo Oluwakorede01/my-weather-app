@@ -185,7 +185,7 @@ import bgImage from "./assets/WhatsApp Image.jpeg";
   };
 
   return (
-    <div       className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center p-4  text-teal-700"
+    <div       className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center p-4  bg-gray-600"
     style={{ backgroundImage: `url(${bgImage})` }} >
       <h1 className="text-3xl mb-4 font-bold text-black  pt-10">Weather App</h1>
 
