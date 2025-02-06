@@ -164,7 +164,7 @@ import bgImage from "./assets/WhatsApp Image.jpeg";
     try {
       // Step 1: Get city coordinates
       const geoResponse = await axios.get(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${selectedCity},${selectedState},Nigeria&limit=1&appid=${API_KEY}`
+        `https://api.openweathermap.org/geo/1.0/direct?q=${selectedCity},${selectedState},Nigeria&limit=1&appid=${API_KEY}`
       );
 
       if (geoResponse.data.length === 0) {
