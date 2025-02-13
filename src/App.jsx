@@ -15,6 +15,7 @@ import bgImage from "./assets/2713.jpg";
 
 
 
+
  const App=()=> {
 
 
@@ -123,8 +124,8 @@ import bgImage from "./assets/2713.jpg";
       {weather && (
         <div className="mt-6 bg-green-400 p-6 rounded-lg shadow-lg  text-white w-full">
           <h2 className="text-2xl font-bold">{weather.name}, {weather.sys.country}</h2>
-          <p className="text-lg">{weather.main.temp}°C</p>
-          <p className="capitalize text-lg">{weather.weather[0].description}</p>
+          <p className="text-lg">🌡Temprature: <strong>{(weather.main.temp - 273.15).toFixed(1)}°C</strong></p>
+          <p className="capitalize text-lg">⛅{weather.weather[0].description}</p>
           <img
             src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`}
             alt="Weather Icon"
